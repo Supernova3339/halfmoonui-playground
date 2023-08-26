@@ -1,49 +1,47 @@
 name: Bug report
 description: Create a report to help improve this project
-title: ''
-labels: bug
+title: "[Bug]: "
+labels: [bug]
 assignees: ''
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
   - type: checkboxes
     id: code-of-conduct
     attributes:
       label: Does this post follow the code of conduct?
       options:
         - label: Yes
-          required: true
   - type: checkboxes
     id: related-to-project
     attributes:
       label: Is this post related to the project?
       options:
         - label: Yes
-          required: true
   - type: checkboxes
     id: similar-issue
     attributes:
       label: Is there already a similar issue?
       options:
         - label: Yes
-          required: true
   - type: textarea
     id: describe-bug
     attributes:
       label: Describe the bug
       description: A clear and concise description of what the bug is.
-      required: true
   - type: textarea
     id: to-reproduce
     attributes:
       label: To Reproduce
       description: Steps to reproducing the behavior.
-      required: true
   - type: textarea
     id: expected-behavior
     attributes:
       label: Expected behavior
       description: A clear and concise description of what you expected to happen.
-      required: true
   - type: textarea
     id: screenshots
     attributes:
