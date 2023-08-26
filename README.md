@@ -9,6 +9,7 @@ Welcome to the **Halfmoon UI** Playground 👋
 - **Interactive UI**: User-friendly interface with the capability of hiding and showing the code viewer. Now, you can focus on what's important.
 - **Sharing**: Got a neat piece of code to show off? The playground lets you effortlessly share your work with others.
 - **Clear All Feature**: Want to start over? Clear the board with just a click!
+- **Theme Switcher** Want to view your code in a different color scheme? Now you can with our one-click theme switcher. ( NEW )
 
 ## Screenshots 📷
 ### Code View
