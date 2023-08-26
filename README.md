@@ -19,7 +19,7 @@ Welcome to the **Halfmoon UI** Playground 👋
 
 ## Contributions 🤝
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](#).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](issues).
 
 ## Show Support 🤗
 
