@@ -32,6 +32,7 @@ Give a ⭐ if this project helped or entertained you!
 - [Halfmoon CSS](https://www.gethalfmoon.com/)
 - [Monaco Editor](https://microsoft.github.io/monaco-editor/)
 - [Bootstrap](https://getbootstrap.com/)
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
 
 ## License 📑
 
