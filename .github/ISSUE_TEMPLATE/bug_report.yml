@@ -14,7 +14,6 @@ body:
       label: Does this post follow the code of conduct?
       options:
         - label: Yes
-        required: true
   - type: checkboxes
     id: related-to-project
     attributes:
