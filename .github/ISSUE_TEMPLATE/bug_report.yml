@@ -1,0 +1,101 @@
+name: Bug report
+description: Create a report to help improve this project
+title: ''
+labels: bug
+assignees: ''
+
+body:
+  - type: checkboxes
+    id: code-of-conduct
+    attributes:
+      label: Does this post follow the code of conduct?
+      options:
+        - label: Yes
+          required: true
+  - type: checkboxes
+    id: related-to-project
+    attributes:
+      label: Is this post related to the project?
+      options:
+        - label: Yes
+          required: true
+  - type: checkboxes
+    id: similar-issue
+    attributes:
+      label: Is there already a similar issue?
+      options:
+        - label: Yes
+          required: true
+  - type: textarea
+    id: describe-bug
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      required: true
+  - type: textarea
+    id: to-reproduce
+    attributes:
+      label: To Reproduce
+      description: Steps to reproducing the behavior.
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain the problem.
+  - type: group
+    id: desktop-info
+    attributes:
+      label: Desktop (please complete the following information)
+      children:
+        - type: input
+          id: desktop-os
+          attributes:
+            label: OS
+            placeholder: e.g. iOS
+        - type: input
+          id: desktop-browser
+          attributes:
+            label: Browser
+            placeholder: e.g. Chrome, Safari
+        - type: input
+          id: desktop-version
+          attributes:
+            label: Version
+            placeholder: e.g. 22
+  - type: group
+    id: smartphone-info
+    attributes:
+      label: Smartphone (please complete the following information)
+      children:
+        - type: input
+          id: smartphone-device
+          attributes:
+            label: Device
+            placeholder: e.g. iPhone6
+        - type: input
+          id: smartphone-os
+          attributes:
+            label: OS
+            placeholder: e.g. iOS8.1
+        - type: input
+          id: smartphone-browser
+          attributes:
+            label: Browser
+            placeholder: e.g. stock browser, Safari
+        - type: input
+          id: smartphone-version
+          attributes:
+            label: Version
+            placeholder: e.g. 22
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
